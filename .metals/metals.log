@@ -15,3 +15,146 @@ AVERTISSEMENT: Unmatched cancel notification for request id 2
 nov. 04, 2020 5:08:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFOS: Unsupported notification method: $/setTraceNotification
 2020.11.04 17:09:50 INFO  shutting down Metals
+2020.11.04 17:11:24 INFO  started: Metals version 0.9.4 in workspace '/Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe' for client vscode.
+2020.11.04 17:11:25 INFO  time: initialize in 0.9s
+2020.11.04 17:11:25 WARN  no build tool detected in workspace '/Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 17:11:28 INFO  no build target: using presentation compiler with only scala-library
+2020.11.04 17:11:28 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/tictactoe.scala
+2020.11.04 17:12:00 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/tictactoe.scala
+2020.11.04 17:12:19 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/test.scala
+2020.11.04 17:12:28 WARN  no build tool detected in workspace '/Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 17:12:42 WARN  no build tool detected in workspace '/Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 17:12:42 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/test.scala
+2020.11.04 17:12:52 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/tictactoe.scala
+2020.11.04 17:13:00 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/tictactoe.scala
+2020.11.04 17:13:22 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/tictactoe.scala
+2020.11.04 17:13:56 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/tictactoe.scala
+2020.11.04 17:14:18 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/tictactoe.scala
+2020.11.04 17:14:25 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/tictactoe.scala
+2020.11.04 17:14:28 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/tictactoe.scala
+2020.11.04 17:14:31 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/test.scala
+2020.11.04 17:15:00 WARN  no build tool detected in workspace '/Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 17:17:25 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/helloworld.scala
+2020.11.04 17:17:32 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/main/helloworld.scala
+2020.11.04 17:17:37 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/main/test.scala
+2020.11.04 17:17:40 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/main/tictactoe.scala
+nov. 04, 2020 5:18:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTraceNotification
+2020.11.04 17:18:29 INFO  shutting down Metals
+2020.11.04 17:18:37 INFO  started: Metals version 0.9.4 in workspace '/Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe' for client vscode.
+2020.11.04 17:18:37 INFO  time: initialize in 0.55s
+2020.11.04 17:18:38 WARN  no build tool detected in workspace '/Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+nov. 04, 2020 5:18:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+AVERTISSEMENT: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "file:///Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/main/test.scala",
+      "languageId": "scala",
+      "version": 1,
+      "text": "import Array._\nimport util.control.Breaks._\n\nobject MyProjectMain {\n  def main(args: Array[String]): Unit \u003d {\n   \n    println(\"Joueur X : entrer la ligne\")\n\n    try{\n      val x\u003dscala.io.StdIn.readInt()\n      if(x.isInstanceOf[Int]\u003d\u003dtrue){\n        println(x)\n      }else{\n        println(\"error\")\n      }\n    }catch{\n      case e: Throwable \u003d\u003e print(\"error 2\")\n    }\n         \n  }\n\n}\n"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/main/test.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.didOpen(MetalsLanguageServer.scala:804)
+	... 16 more
+
+nov. 04, 2020 5:18:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+AVERTISSEMENT: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "file:///Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/main/tictactoe.scala",
+      "languageId": "scala",
+      "version": 1,
+      "text": "import Array._\nimport scala.util.control._\nimport util.control.Breaks._\n\nobject  myTable{\n      var table\u003d ofDim[String](3,3)\n\n      def initTable():Unit\u003d{\n         for (i \u003c- 0 to 2) {\n            for ( j \u003c- 0 to 2) {\n               table(i)(j) \u003d \" \";\n            }\n         }\n      }\n      \n      def printTable():Unit\u003d{\n         print(\"-------\")\n         print(\"\\n\")\n         print(\"|\" + table(0)(0) + \"|\" + table(0)(1) + \"|\" + table(0)(2) + \"|\")\n         print(\"\\n\")\n         print(\"-------\")\n         print(\"\\n\")\n         print(\"|\" + table(1)(0) + \"|\" + table(1)(1) + \"|\" + table(1)(2) + \"|\")\n         print(\"\\n\") \n         print(\"-------\")\n         print(\"\\n\")\n         print(\"|\" + table(2)(0) + \"|\" + table(2)(1) + \"|\" + table(2)(2) + \"|\")\n         print(\"\\n\")\n         print(\"-------\")\n         print(\"\\n\")\n\n         /* for (i \u003c- 0 to 2) {\n            for ( j \u003c- 0 to 2) {\n               print(\" \" + table(i)(j));\n            }\n         println();\n         } */\n      }\n      \n      def xPlayer1():Int\u003d{\n         println(\"Joueur X : entrer la ligne\")\n        try{\n            return scala.io.StdIn.readInt()\n         }catch{\n            case e: Throwable \u003d\u003e xPlayer1()\n         }\n      }\n\n      def yPlayer1():Int\u003d{\n         println(\"Joueur X : entrer la colonne\")\n         try{\n            return scala.io.StdIn.readInt()\n         }catch{\n            case e: Throwable \u003d\u003e yPlayer1()\n         }\n         \n      }\n      \n      def xPlayer2():Int\u003d{\n         println(\"Joueur O : entrer la ligne\")\n         try {\n            return scala.io.StdIn.readInt()\n         }catch{\n            case e: Throwable \u003d\u003e xPlayer2()\n         }\n      }\n\n      def yPlayer2():Int\u003d{\n         println(\"Joueur O : entrer la colonne\")\n         try{\n            return scala.io.StdIn.readInt()\n         }catch{\n            case e:Throwable \u003d\u003e yPlayer2()\n         }\n      }\n\n      def addCross():Unit\u003d{\n         val x\u003dxPlayer1()\n         val y\u003dyPlayer1()\n\n         if(table(x)(y)\u003d\u003d\" \"){\n            table(x)(y)\u003d\"X\"\n         }else{\n            println(\"Case déjà prise, recommencez\")\n            printTable()\n            println(\"\\n\")\n            addCross()\n         }\n      }\n\n      def addCircle():Unit\u003d{\n         val x\u003dxPlayer2()\n         val y\u003dxPlayer2()\n\n         if(table(x)(y)\u003d\u003d\" \"){\n            table(x)(y)\u003d\"O\"\n         }else{\n            println(\"Case déjà prise, recommencez\")\n            printTable()\n            println(\"\\n\")\n            addCircle()\n         }\n      }\n\n      def winConditions(i:Int):Unit\u003d{\n         if(i\u003e3){\n            if(table(0)(0)\u003d\u003dtable(0)(1) \u0026\u0026 table(0)(0)\u003d\u003dtable(0)(2) \u0026\u0026 table(0)(1)\u003d\u003dtable(0)(2)){\n               println(\"joueur \"+ table(0)(0) +\" a gagné\")\n               println(\"cas 1\")\n               break\n            }\n            else if(table(1)(0)\u003d\u003dtable(1)(1) \u0026\u0026 table(1)(0)\u003d\u003dtable(1)(2) \u0026\u0026 table(1)(1)\u003d\u003dtable(1)(2)){\n               println(\"joueur \"+table(1)(0)+\" a gagné\")\n               println(\"cas 2\")\n               break\n            }\n            else if(table(2)(0)\u003d\u003dtable(2)(1) \u0026\u0026 table(2)(0)\u003d\u003dtable(2)(2) \u0026\u0026 table(2)(1)\u003d\u003dtable(2)(2)){\n               println(\"joueur \"+table(2)(0)+\" a gagné\")\n               println(\"cas 3\")\n               break\n            }\n            else if(table(0)(0)\u003d\u003dtable(1)(0) \u0026\u0026 table(0)(0)\u003d\u003dtable(2)(0) \u0026\u0026 table(1)(0)\u003d\u003dtable(2)(0)){\n               println(\"joueur \"+table(0)(0)+\" a gagné\")\n               println(\"cas 4\")\n               break\n            }\n            else if(table(0)(1)\u003d\u003dtable(1)(1) \u0026\u0026 table(0)(1)\u003d\u003dtable(2)(1) \u0026\u0026 table(1)(1)\u003d\u003dtable(2)(1)){\n               println(\"joueur \"+table(0)(1)+\" a gagné\")\n               println(\"cas 5\")\n               break\n            }\n            else if(table(0)(2)\u003d\u003dtable(1)(2) \u0026\u0026 table(0)(2)\u003d\u003dtable(2)(2) \u0026\u0026 table(1)(2)\u003d\u003dtable(2)(2)){\n               println(\"joueur \"+table(0)(2)+\" a gagné\")\n               println(\"cas 6\")\n               break\n            }\n            else if(table(0)(0)\u003d\u003dtable(1)(1) \u0026\u0026 table(0)(0)\u003d\u003dtable(2)(2) \u0026\u0026 table(1)(1)\u003d\u003dtable(2)(2)){\n               println(\"joueur \"+table(0)(0)+\" a gagné\")\n               println(\"cas 7\")\n               break\n            }\n            else if(table(0)(2)\u003d\u003dtable(1)(1) \u0026\u0026 table(0)(2)\u003d\u003dtable(2)(0) \u0026\u0026 table(1)(1)\u003d\u003dtable(2)(0)){\n               println(\"joueur \"+table(0)(0)+\" a gagné\")\n               println(\"cas 8\")\n               break\n            }\n         }\n      }\n\n      \n   }\n\n\nobject  tictactoe{\n   def main(args: Array[String]):Unit\u003d {\n      import myTable._\n\n      initTable()\n      printTable()\n\n      breakable{\n         for(i \u003c- 0 to 8){\n            if(i%2\u003d\u003d0){\n               addCross()\n            }else{\n               addCircle()\n            }\n         \n         printTable()\n         println(\"\\n\")\n         \n         winConditions(i)\n\n         if(i\u003d\u003d8){\n            println(\"Fin du jeu\")\n         }\n      }\n   }\n}\n}"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/main/tictactoe.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.didOpen(MetalsLanguageServer.scala:804)
+	... 16 more
+
+2020.11.04 17:18:41 INFO  no build target: using presentation compiler with only scala-library
+2020.11.04 17:18:41 WARN  no build target for: /Users/sylvainjiang/.Trash/main/tictactoe.scala
+2020.11.04 17:18:41 WARN  no build target for: /Users/sylvainjiang/.Trash/main/tictactoe.scala
+2020.11.04 17:19:09 WARN  no build target for: /Users/sylvainjiang/.Trash/main/tictactoe.scala
+nov. 04, 2020 5:20:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTraceNotification
+nov. 04, 2020 5:20:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTraceNotification
+nov. 04, 2020 5:20:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTraceNotification
+nov. 04, 2020 5:20:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTraceNotification
+nov. 04, 2020 5:21:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTraceNotification
+nov. 04, 2020 5:21:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTraceNotification
+nov. 04, 2020 5:21:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTraceNotification
+nov. 04, 2020 5:21:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTraceNotification
+nov. 04, 2020 5:21:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTraceNotification
