@@ -190,3 +190,7 @@ AVERTISSEMENT: Unmatched cancel notification for request id 9
 2020.11.04 17:24:52 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/main/tictactoe.scala
 2020.11.04 17:25:22 WARN  no build tool detected in workspace '/Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.11.04 17:25:22 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/main/tictactoe.scala
+2020.11.04 17:26:35 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/main/helloworld.scala
+2020.11.04 17:26:40 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/helloworld.scala
+2020.11.04 17:26:40 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/tictactoe.scala
+2020.11.04 17:27:14 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/main/tictactoe.scala
