@@ -158,3 +158,35 @@ nov. 04, 2020 5:21:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint noti
 INFOS: Unsupported notification method: $/setTraceNotification
 nov. 04, 2020 5:21:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFOS: Unsupported notification method: $/setTraceNotification
+2020.11.04 17:22:40 WARN  no build target for: /Users/sylvainjiang/.Trash/main/tictactoe.scala
+2020.11.04 17:22:50 INFO  shutting down Metals
+2020.11.04 17:24:09 INFO  started: Metals version 0.9.4 in workspace '/Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe' for client vscode.
+2020.11.04 17:24:10 INFO  time: initialize in 0.63s
+2020.11.04 17:24:11 WARN  no build tool detected in workspace '/Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 17:24:13 INFO  no build target: using presentation compiler with only scala-library
+2020.11.04 17:24:13 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/main/test.scala
+nov. 04, 2020 5:24:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2
+nov. 04, 2020 5:24:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 5
+nov. 04, 2020 5:24:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 7
+nov. 04, 2020 5:24:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 6
+nov. 04, 2020 5:24:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 4
+nov. 04, 2020 5:24:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 9
+2020.11.04 17:24:15 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/main/test.scala
+2020.11.04 17:24:18 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/main/tictactoe.scala
+2020.11.04 17:24:24 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/main/tictactoe.scala
+2020.11.04 17:24:26 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/main/tictactoe.scala
+2020.11.04 17:24:31 INFO  shutting down Metals
+2020.11.04 17:24:48 INFO  started: Metals version 0.9.4 in workspace '/Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe' for client vscode.
+2020.11.04 17:24:49 INFO  time: initialize in 0.77s
+2020.11.04 17:24:50 WARN  no build tool detected in workspace '/Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 17:24:52 INFO  no build target: using presentation compiler with only scala-library
+2020.11.04 17:24:52 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/main/tictactoe.scala
+2020.11.04 17:24:52 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/main/tictactoe.scala
+2020.11.04 17:25:22 WARN  no build tool detected in workspace '/Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 17:25:22 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/main/tictactoe.scala
