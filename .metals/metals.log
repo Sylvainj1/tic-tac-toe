@@ -1,0 +1,17 @@
+2020.11.04 17:08:06 INFO  started: Metals version 0.9.4 in workspace '/Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe' for client vscode.
+2020.11.04 17:08:07 INFO  time: initialize in 0.55s
+2020.11.04 17:08:08 WARN  no build tool detected in workspace '/Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 17:08:11 INFO  no build target: using presentation compiler with only scala-library
+2020.11.04 17:08:11 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/tictactoe.scala
+2020.11.04 17:08:11 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/helloworld.scala
+nov. 04, 2020 5:08:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 4
+nov. 04, 2020 5:08:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2
+2020.11.04 17:08:18 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/helloworld.scala
+2020.11.04 17:08:23 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/helloworld.scala
+2020.11.04 17:08:25 WARN  no build tool detected in workspace '/Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 17:08:25 WARN  no build target for: /Users/sylvainjiang/Desktop/E5/Scala/2020-ESIEE-DSIA-510C/tic-tac-toe/tictactoe.scala
+nov. 04, 2020 5:08:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTraceNotification
+2020.11.04 17:09:50 INFO  shutting down Metals
