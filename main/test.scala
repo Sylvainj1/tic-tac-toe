@@ -1,22 +1,16 @@
 import Array._
 import util.control.Breaks._
+import scala.util.Random
+
 
 object MyProjectMain {
   def main(args: Array[String]): Unit = {
    
-    println("Joueur X : entrer la ligne")
-
-    try{
-      val x=scala.io.StdIn.readInt()
-      if(x.isInstanceOf[Int]==true){
-        println(x)
-      }else{
-        println("error 1")
-      }
-    }catch{
-      case e: Throwable => print("error 2")
+    for(i <- 0 to 10){
+      val A = List(1, 2, 3)
+      println(A(Random.nextInt(A.size)))
     }
-         
+    
   }
 
 }
