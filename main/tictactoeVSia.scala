@@ -205,50 +205,32 @@ object  myTable{
         }
     }
 
-    def winConditions(i:Int):Unit={
-        if(i>3){
-            if(table(0)(0)==table(0)(1) && table(0)(0)==table(0)(2) && table(0)(1)==table(0)(2)){
-               println("joueur "+ table(0)(0) +" a gagné")
-               println("cas 1")
+    def winConditions(e:Int):Unit={
+        if(e>3){
+            for(i <- 0 to 2){
+               if(table(i)(0)==table(i)(1) && table(i)(0)==table(i)(2) && table(i)(1)==table(i)(2)){
+               println("joueur "+ table(i)(0) +" a gagné")
                break
+               }
             }
-            else if(table(1)(0)==table(1)(1) && table(1)(0)==table(1)(2) && table(1)(1)==table(1)(2)){
-               println("joueur "+table(1)(0)+" a gagné")
-               println("cas 2")
-               break
+
+            for(i<- 0 to 2){
+               if(table(0)(i)==table(1)(i) && table(0)(i)==table(2)(i) && table(1)(i)==table(2)(i)){
+                  println("joueur "+table(0)(i)+" a gagné")
+                  break
+               }
             }
-            else if(table(2)(0)==table(2)(1) && table(2)(0)==table(2)(2) && table(2)(1)==table(2)(2)){
-               println("joueur "+table(2)(0)+" a gagné")
-               println("cas 3")
-               break
-            }
-            else if(table(0)(0)==table(1)(0) && table(0)(0)==table(2)(0) && table(1)(0)==table(2)(0)){
+            
+            if(table(0)(0)==table(1)(1) && table(0)(0)==table(2)(2) && table(1)(1)==table(2)(2)){
                println("joueur "+table(0)(0)+" a gagné")
-               println("cas 4")
-               break
-            }
-            else if(table(0)(1)==table(1)(1) && table(0)(1)==table(2)(1) && table(1)(1)==table(2)(1)){
-               println("joueur "+table(0)(1)+" a gagné")
-               println("cas 5")
-               break
-            }
-            else if(table(0)(2)==table(1)(2) && table(0)(2)==table(2)(2) && table(1)(2)==table(2)(2)){
-               println("joueur "+table(0)(2)+" a gagné")
-               println("cas 6")
-               break
-            }
-            else if(table(0)(0)==table(1)(1) && table(0)(0)==table(2)(2) && table(1)(1)==table(2)(2)){
-               println("joueur "+table(0)(0)+" a gagné")
-               println("cas 7")
                break
             }
             else if(table(0)(2)==table(1)(1) && table(0)(2)==table(2)(0) && table(1)(1)==table(2)(0)){
                println("joueur "+table(0)(0)+" a gagné")
-               println("cas 8")
                break
             }
         }
-    }      
+    }
 }
 
 
