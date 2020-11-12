@@ -29,71 +29,38 @@ object  myTable{
         print("\n")
         print("-------")
         print("\n")
-      }
+    }
       
-    def xPlayer1():Int={
+
+    def xPlayer():Int={
         println("Joueur X : entrer la ligne")
         try{
             return scala.io.StdIn.readInt()
         }catch{
-            case e: Throwable => xPlayer1()
+            case e: Throwable => xPlayer()
         }
     }
 
-    def yPlayer1():Int={
+    def yPlayer():Int={
         println("Joueur X : entrer la colonne")
         try{
             return scala.io.StdIn.readInt()
         }catch{
-            case e: Throwable => yPlayer1()
-        }
-    }
-      
-    def xPlayer2():Int={
-        println("Joueur O : entrer la ligne")
-        try {
-            return scala.io.StdIn.readInt()
-        }catch{
-            case e: Throwable => xPlayer2()
+            case e: Throwable => yPlayer()
         }
     }
 
-    def yPlayer2():Int={
-        println("Joueur O : entrer la colonne")
-        try{
-            return scala.io.StdIn.readInt()
-        }catch{
-            case e:Throwable => yPlayer2()
-        }
-    }
-
-    def addCross():Unit={
-        val x=xPlayer1()
-        val y=yPlayer1()
-
+    def addCross(x:Int,y:Int):Unit={
         if(table(x)(y)==" "){
             table(x)(y)="X"
         }else{
             println("Case déjà prise, recommencez")
             printTable()
             println("\n")
-            addCross()
+            addCross(x,y)
         }
     }
 
-    def addCircle():Unit={
-        val x=xPlayer2()
-        val y=xPlayer2()
-
-        if(table(x)(y)==" "){
-            table(x)(y)="O"
-        }else{
-            println("Case déjà prise, recommencez")
-            printTable()
-            println("\n")
-            addCircle()
-        }
-    }
 
     def addCircleByIa(x:Int,y:Int):Unit={
         if(table(x)(y)==" "){
@@ -115,9 +82,10 @@ object  myTable{
         }
     }
 
-    def checkColumn(joueur:String):(Int,Int)={
+    def checkWin(joueur:String):(Int,Int)={
         var value=(0,0)
-
+        
+        //colonne
         for(i<-0 to 2){
             if(table(0)(i)==joueur && table(1)(i)==joueur && table(2)(i)==" "){
                 value=(2,i)
@@ -129,12 +97,8 @@ object  myTable{
                 value=(0,i)
             }
         }
-        return value
-    }
-
-    def checkRow(joueur:String):(Int,Int)={
-        var value=(0,0)
-
+        
+        //ligne
         for(i<-0 to 2){
             if(table(i)(0)==joueur && table(i)(1)==joueur && table(i)(2)==" "){
                 value=(i,2)
@@ -146,56 +110,42 @@ object  myTable{
                 value=(i,0)
             }
         }
-        return value
-    }
 
-    def checkDiagonale(joueur:String):(Int,Int)={
-        var value = (0,0)
-        //diago 1
+        //diagonal
         if(table(0)(0)==joueur && table(1)(1)==joueur && table(2)(2)==" "){
             value=(2,2)
         }
-        else if(table(0)(0)==joueur && table(2)(2)==joueur && table(0)(0)==" "){
+        else if(table(0)(0)==joueur && table(2)(2)==joueur && table(1)(1)==" "){
             value=(1,1)
         }
-        else if(table(1)(1)==joueur && table(2)(2)==joueur && table(1)(1)==" "){
+        else if(table(1)(1)==joueur && table(2)(2)==joueur && table(0)(0)==" "){
             value=(0,0)
         }
 
-        //diago 2
         if(table(0)(2)==joueur && table(1)(1)==joueur && table(2)(0)==" "){
             value=(2,0)
         }
         else if(table(0)(2)==joueur && table(2)(0)==joueur && table(1)(1)==" "){
             value=(1,1)
         }
-        else if(table(1)(1)==joueur && table(2)(2)==joueur && table(2)(0)==" "){
+        else if(table(1)(1)==joueur && table(2)(0)==joueur && table(0)(2)==" "){
             value=(2,0)
         }
 
         return value
+
     }
 
     def iaCheck():Unit={
-        var blockWinConditions:(Int,Int)=(0,0)
-        if(table(checkColumn("X")._1)(checkColumn("X")._2)==" "){
-            blockWinConditions=checkColumn("X")
+        if(table(checkWin("O")._1)(checkWin("O")._2)==" "){
+            addCircleByIa(checkWin("O")._1,checkWin("O")._2)
         }
-        else if(table(checkRow("X")._1)(checkRow("X")._2)==" "){
-            blockWinConditions=checkRow("X")
-        }
-        else if(table(checkDiagonale("X")._1)(checkDiagonale("X")._2)==" "){
-            blockWinConditions=checkDiagonale("X")
-        }
-        
-
-        if(table(blockWinConditions._1)(blockWinConditions._2)==" "){
-            addCircleByIa(blockWinConditions._1,blockWinConditions._2)
+        else if(table(checkWin("X")._1)(checkWin("X")._2)==" "){
+            addCircleByIa(checkWin("X")._1,checkWin("X")._2)
         }else{
             iaAddRandomCircle()
         }
     }
-
 
     def iaAddCircle(i:Int):Unit={
         if(i==1){
@@ -207,6 +157,7 @@ object  myTable{
 
     def winConditions(e:Int):Unit={
         if(e>3){
+            //row
             for(i <- 0 to 2){
                if(table(i)(0)==table(i)(1) && table(i)(0)==table(i)(2) && table(i)(1)==table(i)(2)){
                println("joueur "+ table(i)(0) +" a gagné")
@@ -214,6 +165,7 @@ object  myTable{
                }
             }
 
+            //colonne
             for(i<- 0 to 2){
                if(table(0)(i)==table(1)(i) && table(0)(i)==table(2)(i) && table(1)(i)==table(2)(i)){
                   println("joueur "+table(0)(i)+" a gagné")
@@ -221,6 +173,7 @@ object  myTable{
                }
             }
             
+            //diagonale
             if(table(0)(0)==table(1)(1) && table(0)(0)==table(2)(2) && table(1)(1)==table(2)(2)){
                println("joueur "+table(0)(0)+" a gagné")
                break
@@ -244,7 +197,7 @@ object  tictactoe{
         breakable{
             for(i <- 0 to 8){
                 if(i%2==0){
-                    addCross()
+                    addCross(xPlayer(),yPlayer())
                 }else{
                     println("Au tour du joueur O")
                     iaAddCircle(i)
