@@ -107,7 +107,6 @@ object  myTable{
             for(i <- 0 to 2){
                if(table(i)(0)==table(i)(1) && table(i)(0)==table(i)(2) && table(i)(0)!=" "){
                println("joueur "+ table(i)(0) +" a gagné")
-               println("a")
                break
                }
             }
@@ -115,19 +114,16 @@ object  myTable{
             for(i<- 0 to 2){
                if(table(0)(i)==table(1)(i) && table(0)(i)==table(2)(i)  && table(0)(i)!=" "){
                   println("joueur "+table(0)(i)+" a gagné")
-                  println("b")
                   break
                }
             }
             
             if(table(0)(0)==table(1)(1) && table(0)(0)==table(2)(2)  && table(0)(0)!=" "){
                println("joueur "+table(0)(0)+" a gagné")
-               println("c")
                break
             }
             else if(table(0)(2)==table(1)(1) && table(0)(2)==table(2)(0)  && table(0)(2)!=" "){
                println("joueur "+table(0)(2)+" a gagné")
-               println("d")
                break
             }
          }
