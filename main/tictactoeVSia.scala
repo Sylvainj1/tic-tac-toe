@@ -187,13 +187,15 @@ object  myTable{
 object  tictactoe{
    def main(args: Array[String]):Unit= {
         import myTable._
-
+        val A = List(0,1)
+        val random = A(Random.nextInt(A.size))
+        
         initTable()
         printTable()
 
         breakable{
             for(i <- 0 to 8){
-                if(i%2==0){
+                if(i%2==(0+random)){
                     addCross(xPlayer(),yPlayer())
                 }else{
                     println("Au tour du joueur O")
