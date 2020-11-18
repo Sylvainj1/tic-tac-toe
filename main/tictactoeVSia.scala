@@ -50,14 +50,17 @@ object  myTable{
         }
     }
 
-    def addCross(x:Int,y:Int):Unit={
+    def addCross():Unit={
+        val x=xPlayer()
+        val y=yPlayer()
+
         if(table(x)(y)==" "){
             table(x)(y)="X"
         }else{
             println("Case déjà prise, recommencez")
             printTable()
             println("\n")
-            addCross(x,y)
+            addCross()
         }
     }
 
@@ -196,7 +199,7 @@ object  tictactoe{
         breakable{
             for(i <- 0 to 8){
                 if(i%2==(0+random)){
-                    addCross(xPlayer(),yPlayer())
+                    addCross()
                 }else{
                     println("Au tour du joueur O")
                     iaAddCircle(i)
