@@ -1,6 +1,7 @@
 import Array._
 import scala.util.control._
 import util.control.Breaks._
+import scala.util.Random
 
 object  myTable{
       var table= ofDim[String](3,3)
